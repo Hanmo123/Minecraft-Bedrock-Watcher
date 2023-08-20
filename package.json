@@ -1,0 +1,26 @@
+{
+  "name": "minecraft-bedrock-watcher",
+  "version": "1.0.0",
+  "description": "Agones Watcher for Minecraft Bedrock Servers",
+  "main": "src/main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Hanmo123/Minecraft-Bedrock-Watcher.git"
+  },
+  "author": "Hanmo5888",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hanmo123/Minecraft-Bedrock-Watcher/issues"
+  },
+  "homepage": "https://github.com/Hanmo123/Minecraft-Bedrock-Watcher#readme",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@google-cloud/agones-sdk": "^1.34.0",
+    "bedrock-protocol": "^3.30.0"
+  }
+}
